@@ -1,0 +1,8 @@
+[workspace]
+resolver = "2"
+members = ["peek_online_server"]
+
+[workspace.dependencies]
+clap = { version = "4.5", features = ["derive"] }
+tokio = { version = "1.4", features = ["full"] }
+warp = "0.3"

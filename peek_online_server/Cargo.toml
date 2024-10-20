@@ -1,0 +1,9 @@
+[package]
+name = "peek_online_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { workspace = true }
+tokio = { workspace = true }
+warp = { workspace = true }
