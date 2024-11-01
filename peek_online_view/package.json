@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "tsc -p ./lib",
+    "dev": "tsc -p ./lib && npm start --prefix dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
